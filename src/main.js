@@ -16,7 +16,7 @@ const options = {
 };
 Vue.use(VueLogger, options);
 
-//keycloak init options
+// Exemplo 01 - Geração de token de Servico - O TELEMEDICINA usará este modo
 
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
@@ -39,6 +39,8 @@ fetch(
 )
   .then((response) => response.json())
   .then((result) => Vue.$log.info("Token de usuário de servico", result));
+
+// Exemplo 01 - Geração de token de usuário, com login e senha
 
 let keycloak = Keycloak("/keycloak.json");
 
