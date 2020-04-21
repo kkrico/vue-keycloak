@@ -1,13 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For learning about keycloak<br>
-      check out the
-      <a href="https://medium.com/keycloak" target="_blank" rel="noopener">keycloak</a>.
-    </p>
-    
- 
   </div>
 </template>
 
@@ -15,7 +8,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    token : String
   }
 }
 </script>

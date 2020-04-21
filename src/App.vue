@@ -3,8 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png" style="margin-left: 50px;">
      <img alt="heart" src="./assets/heart.png" style="height: 100px;margin: 30px;">
     <img alt="keycloak logo" src="./assets/keycloak.png">
-    <HelloWorld msg="Welcome to Your Vue.js App secured with Keycloak"/>
-    
+    <HelloWorld msg="Exemplo keycloak + vuejs, autenticando na Cassi. Abra o log (Vue.$log) para maiores infos"/>
   </div>
 </template>
 
