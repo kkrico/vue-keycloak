@@ -13,6 +13,12 @@ Usamos 2x fluxos:
   
 Qualquer duvida, entrar em contato comigo ou Osvaldo
 
+Usuário para teste:
+
+osvaldo.melo
+12345678
+
+Favor ver video enviado também
 
 ## Install
 ```
