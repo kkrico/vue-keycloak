@@ -1,0 +1,10 @@
+{
+    "realm": "Colaborador",
+    "auth-server-url": "https://rhsso-np.paas.cassi.com.br/auth",
+    "ssl-required": "external",
+    "resource": "iron",
+    "credentials": {
+      "secret": "2ab10991-a3ae-4e59-804e-66fac9d57fe5"
+    },
+    "confidential-port": 0
+  }
